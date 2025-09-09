@@ -1,11 +1,11 @@
-from parent import Parent
+from parents import Parent
 
 class Child():
 
     def __init__(self):
 
         self.parents: list[Parent] = []
-        self.location = ""
+        self.location: str = ""
 
     # Add subscriber
     def addParent(self, parent):
